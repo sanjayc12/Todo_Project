@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="dashboard-container">
+    <header>
+        <h2>My Todo List</h2>
+        <button id="logout-btn" class="danger-btn">Logout</button>
+    </header>
+
+    <form id="todo-form">
+        <input type="text" id="todo-title" placeholder="Task Title" required>
+        <input type="text" id="todo-desc" placeholder="Task Description" required>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <ul id="todo-list">
+        <!-- Dynamic Todo list items will be injected here via JS -->
+    </ul>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

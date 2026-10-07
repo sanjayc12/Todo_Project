@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Auth Styles */
+.auth-container, .dashboard-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.toggle-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Todo Layout Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.danger-btn {
+    background-color: #dc3545;
+    width: auto;
+    padding: 8px 15px;
+    margin: 0;
+}
+
+.danger-btn:hover {
+    background-color: #c82333;
+}
+
+#todo-form {
+    margin-bottom: 20px;
+}
+
+#todo-form input {
+    margin-bottom: 10px;
+}
+
+#todo-list {
+    list-style: none;
+}
+
+.todo-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-info h4 {
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.todo-info p {
+    font-size: 13px;
+    color: #777;
+}
+
+.delete-btn {
+    background-color: transparent;
+    color: #dc3545;
+    width: auto;
+    border: 1px solid #dc3545;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 0;
+}
+
+.delete-btn:hover {
+    background-color: #dc3545;
+    color: white;
+}
